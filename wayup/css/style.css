@@ -1,0 +1,291 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+ul,
+li,
+p,
+div,
+input,
+a,
+span,
+form,
+button {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: rgba(78, 189, 254, 1);
+    background: -moz-linear-gradient(-45deg, rgba(78, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78, 189, 254, 1)), color-stop(100%, rgba(55, 144, 217, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(78, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(78, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(78, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: linear-gradient(135deg, rgba(78, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1);
+    padding-top: 100px;
+    color: #fff;
+    padding-bottom: 145px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer {
+    width: 575px;
+}
+
+.title {
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+
+.title span {
+    font-size: 59px;
+    line-height: 1.6em;
+}
+
+.intro {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 43px;
+    width: 405px;
+    line-height: 1.8em;
+    letter-spacing: 0.03em;
+    margin-top: 0;
+}
+
+.btn {
+    background-color: #ffd429;
+    text-decoration: none;
+    padding: 20px 0;
+    color: #2e2a1b;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    display: block;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.btn_header {
+    width: 220px;
+}
+
+.btn:hover {
+    background: #b79c32;
+}
+
+.travel {
+    padding-top: 108px;
+    padding-bottom: 120px;
+}
+
+.section_title {
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.advantages {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.advantage {
+    width: 305px;
+    text-align: center;
+    padding-top: 95px;
+}
+
+.advantage_title {
+    font-size: 19px;
+
+}
+
+.advantage_time {
+    background: url(../img/icon1.jpg) no-repeat center top;
+}
+
+.advantage_travel {
+    background: url(../img/icon2.jpg) no-repeat center top;
+}
+
+.advantage_value {
+    background: url(../img/icon3.jpg) no-repeat center top;
+}
+
+.order {
+    background-color: #ecf3f8;
+    padding: 107px 0;
+
+}
+
+.input {
+    width: 340px;
+    border: 1px solid #bbbbbb;
+    height: 47px;
+    padding-left: 17px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.btn_form {
+    width: 340px;
+    cursor: pointer;
+    border: 0;
+}
+
+.footer {
+    background-color: #164d7a;
+    padding: 55px 0;
+}
+
+.credits {
+    margin: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+/* Адаптивность */
+
+/* Разришение 992px - 1200px */
+@media screen and (max-width:1200px) {
+    .container {
+        width: 960px;
+    }
+
+    .travel__img {
+        width: 560px;
+        height: 560px;
+    }
+
+
+
+}
+
+/* Разришение 768px - 992px */
+@media screen and (max-width:992px) {
+    .container {
+        width: 720px;
+    }
+
+    .wrapper {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .header {
+        padding: 70px 0;
+    }
+
+    .intro {
+        width: auto;
+    }
+
+    .offer {
+        width: auto;
+    }
+
+    .btn_header {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .logo {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+/* Разришение 576px - 768px */
+@media screen and (max-width:768px) {
+    .container {
+        width: 560px;
+    }
+
+    .advantages {
+        flex-direction: column;
+    }
+
+    .advantage {
+        width: auto;
+    }
+
+    .order,
+    .travel {
+        padding: 70px 0;
+    }
+
+    .adventure_text {
+        margin-bottom: 25px;
+    }
+}
+
+/* Разришение 320px - 576px */
+@media screen and (max-width:576px) {
+    .container {
+        width: 90%;
+    }
+
+    .travel__img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .title span {
+        font-size: 50px;
+    }
+
+    .section_title {
+        font-size: 24px;
+    }
+
+    .input,
+    .btn_form {
+        width: 100%;
+    }
+
+    .footer {
+
+        padding: 30px 0;
+    }
+}
