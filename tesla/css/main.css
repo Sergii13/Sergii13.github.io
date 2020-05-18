@@ -7,7 +7,9 @@ a {
     color: #ffffff;
 }
 
+
 /* font-family: 'Roboto', sans-serif; */
+
 body {
     color: #ffffff;
     background-color: #0b0b0b;
@@ -24,7 +26,6 @@ body {
     background: rgba(11, 11, 11, 0.3);
     left: 0;
     right: 0;
-
 }
 
 .container {
@@ -99,7 +100,6 @@ body {
 
 .menu.active {
     left: 0;
-
 }
 
 .close-btn {
@@ -127,7 +127,6 @@ body {
 
 .close-btn::after {
     transform: rotate(45deg);
-
 }
 
 .close-btn::before {
@@ -234,7 +233,6 @@ body {
 .statistics-item__num--speed span {
     display: inline-block;
     position: relative;
-
 }
 
 .statistics-item__num--speed span::before {
@@ -348,7 +346,6 @@ body {
     .advantages__text {
         padding-left: 20px;
     }
-
     .design__images img {
         width: 100%;
     }
@@ -358,18 +355,15 @@ body {
     .design-row {
         display: block;
     }
-
     .design-row__item {
         max-width: 100%;
         margin-bottom: 25px;
         padding-right: 0;
     }
-
     .design__images,
     .design-row {
         margin-bottom: 50px;
     }
-
     .design-row__item-text {
         max-width: 100%;
     }
@@ -381,20 +375,16 @@ body {
         justify-content: center;
         margin-bottom: 100px;
     }
-
     .advantages__title {
         position: static;
     }
-
     .advantages-descr {
         text-align: center;
     }
-
     .advantages__text {
         margin: 25px auto;
         padding-left: 0;
     }
-
     .advantages-row--mobile .advantages-descr {
         order: -1;
         display: flex;
@@ -406,7 +396,6 @@ body {
     .statistics-items {
         flex-wrap: wrap;
     }
-
     .statistics-item {
         padding: 50px 0;
         margin: 0 30px;
@@ -417,10 +406,8 @@ body {
     .advantages__img img {
         width: 100%;
     }
-
     .design-row__item-text {
         font-size: 20px;
-
     }
 }
 
@@ -429,17 +416,14 @@ body {
         font-size: 20px;
         line-height: 24;
     }
-
     .logo img {
         width: 200px;
     }
-
     .header-content__title {
         font-size: 70px;
         line-height: 85px;
         margin-top: 25px;
     }
-
     .menu__list a {
         font-size: 32px;
         line-height: 44px;
@@ -447,29 +431,22 @@ body {
         display: block;
         min-width: 100%;
     }
-
     .menu__list ul {
         width: 100%;
-
     }
-
     .statistics {
         margin: 70px 0 50px;
     }
-
     .statistics-item {
         padding: 25px 0;
     }
-
     .statistics-item__num {
         font-size: 83px;
         line-height: 99px;
     }
-
     .video {
         margin-bottom: 50px;
     }
-
     .advantages__text {
         width: 100%;
     }
